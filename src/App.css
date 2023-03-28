@@ -1,0 +1,80 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Seaweed+Script&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+background-color: #fff;
+font-family: "Prompt",sans-serif;
+}
+.background{
+  background-color: #f6f9fc;
+  padding: 10px 0;
+
+}
+
+.container{
+  max-width: 98%;
+  margin: auto;
+}
+.d_flex{
+display: flex;
+justify-content: space-between;
+}
+.c_flex{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.f_flex{
+  display: flex;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+li{
+  list-style: none;
+}
+.uppercase{
+  text-transform: uppercase;
+  text-transform: capitalize;
+}
+.capitalize{
+ 
+  text-transform: capitalize;
+}
+
+.RText{
+  text-align: center;
+}
+input, button {
+  border: none;
+ outline: none;
+ background-color: none;
+}
+.row {
+  width: 50%;
+}
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #f3f5f9;
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+
+.p-3 {
+  padding: 0.3rem;
+  align-items: center;
+  display: flex;
+}
+.boxShadow{
+  box-shadow: rgb(43 52 69/10%) 0 4px 16px;
+}
